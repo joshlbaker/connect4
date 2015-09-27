@@ -78,8 +78,11 @@ class ConnectFour
     if entry.include? "y"
       return true
     else
-    	puts "Thanks for playing. Ruby code written by Josh Baker"
-    	puts ""
+    	puts ' '
+    	puts "Thanks for playing!"
+    	puts "Ruby code written by Josh Baker"
+    	puts "Fork on GitHub: https://github.com/joshlbaker/connect4.git"
+    	puts ' '
       return false
     end
   end 
