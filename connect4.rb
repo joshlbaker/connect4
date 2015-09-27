@@ -1,8 +1,5 @@
 class ConnectFour
 
-	# require colorize for color styling
-	require "colorize"
-
   attr_accessor :player1, :player2, :current_player, :board
 
   # sets initial variables for game start
@@ -82,6 +79,7 @@ class ConnectFour
       return true
     else
     	puts "Thanks for playing. Ruby code written by Josh Baker"
+    	puts ""
       return false
     end
   end 
